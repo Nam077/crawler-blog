@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node src/main.ts",
+    "theme": "ts-node src/main.ts",
+    "dji": "ts-node src/dji.ts",
+    "start": "npm run theme && npm run dji",
     "build": "webpack"
   },
   "keywords": [],
